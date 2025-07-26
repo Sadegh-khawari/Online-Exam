@@ -1,0 +1,43 @@
+/* Google Fonts Import */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+@import "tailwindcss";
+
+@theme {
+  /*
+   * ========================================================================
+   * Colors
+   * ========================================================================
+   */
+  --color-primary: #4339f2;
+  --color-primary-light: #f3f2ff;
+  --color-text-dark: #2d3748;
+  --color-text-medium: #718096;
+  --color-text-light: #a0aec0;
+  --color-background-light: #f7fafc;
+  --color-border-color: #e2e8f0;
+  --color-success: #38a169;
+  --color-danger: #e53e3e;
+
+  /*
+   * ========================================================================
+   * Fonts
+   * ========================================================================
+   */
+  --font-family-sans: "Poppins", sans-serif;
+
+  /*
+   * ========================================================================
+   * Sizing & Spacing
+   * ========================================================================
+   */
+  --border-radius-md: 8px;
+  --border-radius-lg: 10px;
+
+  /*
+   * ========================================================================
+   * Effects
+   * ========================================================================
+   */
+  --box-shadow-card: 0px 4px 20px rgba(0, 0, 0, 0.05);
+}
