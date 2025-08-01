@@ -41,3 +41,48 @@
    */
   --box-shadow-card: 0px 4px 20px rgba(0, 0, 0, 0.05);
 }
+
+/* Custom Tailwind color utilities */
+@layer utilities {
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+  .bg-primary-light {
+    background-color: var(--color-primary-light);
+  }
+  .bg-background-light {
+    background-color: var(--color-background-light);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+  .text-dark {
+    color: var(--color-text-dark);
+  }
+  .text-medium {
+    color: var(--color-text-medium);
+  }
+  .text-light {
+    color: var(--color-text-light);
+  }
+  .text-success {
+    color: var(--color-success);
+  }
+  .text-danger {
+    color: var(--color-danger);
+  }
+
+  .border-primary {
+    border-color: var(--color-primary);
+  }
+  .border-light {
+    border-color: var(--color-border-color);
+  }
+  .border-success {
+    border-color: var(--color-success);
+  }
+  .border-danger {
+    border-color: var(--color-danger);
+  }
+}
